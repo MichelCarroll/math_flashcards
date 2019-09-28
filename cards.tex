@@ -1,0 +1,115 @@
+
+
+\begin{flashcard}[Definition]{Subset}
+  Notation: $A \subseteq B$, informally $A \subset B$
+  \vfill
+  if $x \in A$, then $x \in B$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Proper Subet}
+  Notation: $A \subset B$
+  \vfill
+  $A \subseteq B$ and $A \neq B$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Union}
+  Notation: $A \cup B$
+  \vfill
+  $\{x \mid x \in A \text{ or } x \in B\}$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Intersection}
+  Notation: $A \cap B$
+  \vfill
+  $\{x \mid x \in A \text{ and } x \in B\}$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Disjoint Sets}
+  A and B are disjoint if $A \cap B = \O$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Equal Sets}
+  A and B are equivalent if $A \subset B$ and $B \subset A$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Complement}
+  For any set $A \subset U$
+  \vfill
+  $A' = \{x \in U \mid x \notin A \}$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Difference}
+  $A \setminus B = A \cap B'$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Cartesian Product}
+  $A \bigtimes B = \{ (a,b) \mid a \in A \text{ and } b \in B \}$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Relation}
+  A relation from A to B is a subset of $A \bigtimes B$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Function or Map}
+  Notation: $f: A \to B$, where A is the \emph{domain} and B is the \emph{target}
+  \vfill
+  A relation from A to B where $\forall a \in A, \exists!\ (a,b)$
+  \vfill
+  $f(a) = b$ means $(a,b) \in f$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Image of Function}
+  $f(A) = \{f(a): a \in A\}$
+  \vfill
+  Note: $f(A) \subset B$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Surjective}
+  Also known as \emph{onto}
+  \vfill
+  A function $f: A \to B$ for which $f(A) = B$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Injective}
+  Also known as \emph{one-to-one}
+  \vfill
+  A function $f: A \to B$ for which $f(a_1) = f(a_2)$ implies $a_1 = a_2$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Bijective}
+  A function which is both injective and surjective.
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Composition}
+  For $f: A \to B$ and $g: B \to C$ , the composition~$g \circ f$ is defined as:
+  \vfill
+  $(g \circ f)(x) = g(f(x))$
+  \vfill
+  Notes: $g \circ f: A \to C$, and composition is associative
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Composition Properties}
+  \begin{itemize}
+    \item If g and f are surjective, $g \circ f$ is surjective
+    \item If g and f are injective, $g \circ f$ is injective
+    \item If g and f are bijective, $g \circ f$ is bijective
+  \end{itemize}
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Identity Map}
+  Notation: $id_s$
+  \vfill
+  $id(x) = x, id: S \to S$
+  \vfill
+  Note: $id_s = \{ (x,x): x \in S \}$
+\end{flashcard}
+
+\begin{flashcard}[Definition]{Inverse}
+  Notation: $\inv{f}$
+  \vfill
+  $g = \inv{f} \iff g \circ f = id_A$
+  \vfill
+  $f$ is invertible iff it has an inverse.
+  \vfill
+  $f$ is invertible iff it's bijective.
+\end{flashcard}
